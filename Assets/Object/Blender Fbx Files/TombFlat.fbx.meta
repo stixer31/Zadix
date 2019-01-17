@@ -1,31 +1,21 @@
 fileFormatVersion: 2
-guid: 329341e54c94e574b868051debc7b5d0
+guid: b8424b8ef834bfd48a16b20c015ddbde
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Armature
-    100002: Cube
-    100004: Flag
-    100006: //RootNode
-    100008: SupportFlag
-    400000: Armature
-    400002: Cube
-    400004: Flag
-    400006: //RootNode
-    400008: SupportFlag
+    100000: Base
+    100002: //RootNode
+    100004: TombFlat
+    400000: Base
+    400002: //RootNode
+    400004: TombFlat
     2100000: No Name
-    2300000: Armature
-    2300002: Cube
-    2300004: Flag
-    2300006: SupportFlag
-    3300000: Armature
-    3300002: Cube
-    3300004: Flag
-    3300006: SupportFlag
-    4300000: Armature
-    4300002: SupportFlag
-    4300004: Flag
-    4300006: Cube
+    2300000: Base
+    2300002: TombFlat
+    3300000: Base
+    3300002: TombFlat
+    4300000: Base
+    4300002: TombFlat
   externalObjects: {}
   materials:
     importMaterials: 1
