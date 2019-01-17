@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-using UnityEngine;
+/*using UnityEngine;
 
 public class ControllerGrabObject : MonoBehaviour
 {
@@ -118,3 +118,4 @@ public class ControllerGrabObject : MonoBehaviour
         objectInHand = null;
     }
 }
+*/

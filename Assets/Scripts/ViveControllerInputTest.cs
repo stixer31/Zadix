@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-using UnityEngine;
+/*using UnityEngine;
 
 public class ViveControllerInputTest : MonoBehaviour
 {
@@ -64,3 +64,4 @@ public class ViveControllerInputTest : MonoBehaviour
         }
     }
 }
+*/

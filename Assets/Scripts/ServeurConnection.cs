@@ -1,5 +1,5 @@
 ﻿
-#pragma strict
+/*#pragma strict
 //aide https://www.youtube.com/watch?v=6A1Y-FVTbYo&t=276s
 
 
@@ -76,4 +76,4 @@ function OnConnectedToServer()
 function OnPlayerConnected()
 {
     print("un joueur à rejoins");
-}
+}*/
