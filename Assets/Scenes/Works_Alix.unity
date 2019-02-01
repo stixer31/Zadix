@@ -481,6 +481,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8303268796159895736, guid: 59c134c54baa2bd4ea6012482d5989d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8303268796553271372, guid: 59c134c54baa2bd4ea6012482d5989d8,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -633,4 +638,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 8303268795208432478}
-  state: 1
