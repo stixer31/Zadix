@@ -1129,6 +1129,14 @@ PrefabInstance:
       propertyPath: connectionStatusText
       value: 
       objectReference: {fileID: 347442996}
+    - target: {fileID: 11472342, guid: c8d0b935315cbe04683415f8e607e40d, type: 3}
+      propertyPath: hostName
+      value: Lobby
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472342, guid: c8d0b935315cbe04683415f8e607e40d, type: 3}
+      propertyPath: hostPassword
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8d0b935315cbe04683415f8e607e40d, type: 3}
 --- !u!114 &605835329 stripped
