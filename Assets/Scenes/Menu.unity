@@ -317,7 +317,7 @@ PrefabInstance:
     - target: {fileID: 8303268797011987968, guid: 59c134c54baa2bd4ea6012482d5989d8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StopClient
+      value: StopGame
       objectReference: {fileID: 0}
     - target: {fileID: 8303268797011987968, guid: 59c134c54baa2bd4ea6012482d5989d8,
         type: 3}
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 3309496341813224196, guid: 4becf7a0620409c49b70049141ea6228,
+  m_PlayerPrefab: {fileID: 6003066486531358537, guid: 4becf7a0620409c49b70049141ea6228,
     type: 3}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
