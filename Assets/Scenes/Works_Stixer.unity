@@ -113,6 +113,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &79995485
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +352,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of 88014a0... Add Navmesh Script
+=======
+>>>>>>> parent of 70ce7a0... Mise a jour reseau
 --- !u!1 &848638969
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,15 +500,20 @@ Transform:
   m_GameObject: {fileID: 1567169619}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 248, y: 1, z: 243}
 =======
   m_LocalPosition: {x: 0, y: 1, z: -10}
 >>>>>>> parent of 88014a0... Add Navmesh Script
+=======
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+>>>>>>> parent of 70ce7a0... Mise a jour reseau
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1927399776
 PrefabInstance:
@@ -806,3 +814,5 @@ MonoBehaviour:
 >>>>>>> parent of 7e18f4c... Personage
 =======
 >>>>>>> parent of 88014a0... Add Navmesh Script
+=======
+>>>>>>> parent of 70ce7a0... Mise a jour reseau
