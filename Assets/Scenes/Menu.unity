@@ -317,7 +317,7 @@ PrefabInstance:
     - target: {fileID: 8303268797011987968, guid: 59c134c54baa2bd4ea6012482d5989d8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StopClient
+      value: StopGame
       objectReference: {fileID: 0}
     - target: {fileID: 8303268797011987968, guid: 59c134c54baa2bd4ea6012482d5989d8,
         type: 3}
