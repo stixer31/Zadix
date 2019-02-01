@@ -22,6 +22,12 @@ public class NetworkManager_custom : NetworkManager
     }
 
     //JoinGame
+    public void StopGame()
+    {
+        NetworkManager.singleton.StopClient();
+    }
+
+    //JoinGame
     public void SetIPAdress()
     {
         string ipAdress = GameObject.Find("Ip_Adress").transform.Find("Text").GetComponent<Text>().text;
