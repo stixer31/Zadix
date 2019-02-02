@@ -13,13 +13,34 @@ public class MouvementJoueur : NetworkBehaviour
     private Vector3 targetPosition;
     private bool isMoving;
 
+    public GameObject cubeCouleur;
+    public Camera cameraLocal;
+    public Color couleurDefault;
+    public Color couleurChange;
 
+    void Start()
+    {
+        //desactive ou active la camera pour le reseau
+        //myTransform.FindChild("Camera").Getcomponent<camera>().enabled = true;
+        if (GetComponentInParent<NetworkIdentity>().isLocalPlayer)
+        {
+            cubeCouleur.GetComponent<Renderer>().material.color = Color.red;
+            cameraLocal.GetComponent<Transform>().GetComponent<Camera>().enabled = true;
+        }
+        else
+        {
+            cubeCouleur.GetComponent<Renderer>().material.color = Color.green;
+        }
+        
+
+
+    }
     void Update()
     {
-        /*if (!GetComponentInParent<NetworkIdentity>().isLocalPlayer)
+        if (!GetComponentInParent<NetworkIdentity>().isLocalPlayer)
         {
             return;
-        }*/
+        }
         if (Input.GetMouseButtonDown(0))
             {
                 isMoving = true;
@@ -31,7 +52,7 @@ public class MouvementJoueur : NetworkBehaviour
         
         
     }
-
+    
     private void MovePlayer()
     {
         Quaternion targetRotation = Quaternion.LookRotation(targetPosition - transform.position);
@@ -46,7 +67,7 @@ public class MouvementJoueur : NetworkBehaviour
     private void SetTargetPosition()
     {
         Plane playerPlane = new Plane(Vector3.up, transform.position);
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray ray = cameraLocal.ScreenPointToRay(Input.mousePosition);
         float hitdist = 0.0f;
 
         if (playerPlane.Raycast(ray, out hitdist))
