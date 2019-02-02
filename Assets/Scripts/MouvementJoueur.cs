@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 
-public class MouvementJoueur : MonoBehaviour
+public class MouvementJoueur : NetworkBehaviour
 {
 
     public float rotateSpeed = 20f;
@@ -15,14 +16,20 @@ public class MouvementJoueur : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        /*if (!GetComponentInParent<NetworkIdentity>().isLocalPlayer)
         {
-            isMoving = true;
-            SetTargetPosition();
-        }
+            return;
+        }*/
+        if (Input.GetMouseButtonDown(0))
+            {
+                isMoving = true;
+                SetTargetPosition();
+            }
 
-        if (isMoving)
-            MovePlayer();
+            if (isMoving)
+                MovePlayer();
+        
+        
     }
 
     private void MovePlayer()
