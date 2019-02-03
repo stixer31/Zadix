@@ -352,10 +352,25 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0.0627451
       objectReference: {fileID: 0}
+    - target: {fileID: 4705295406693528313, guid: 2d715258126fcc04bbc0709f38142ab2,
+        type: 3}
+      propertyPath: m_Text
+      value: Zadix Chat
+      objectReference: {fileID: 0}
     - target: {fileID: 4311787812651454694, guid: 2d715258126fcc04bbc0709f38142ab2,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3983457995523824167, guid: 2d715258126fcc04bbc0709f38142ab2,
+        type: 3}
+      propertyPath: m_Text
+      value: Nom de joueur...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881757336225950681, guid: 2d715258126fcc04bbc0709f38142ab2,
+        type: 3}
+      propertyPath: m_Text
+      value: Ecrire un nom de joueur
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d715258126fcc04bbc0709f38142ab2, type: 3}
@@ -365,6 +380,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1792336333651017854}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1792336334876282235 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1259867397, guid: 2d715258126fcc04bbc0709f38142ab2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1792336333651017854}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e7d102b39ad0a4a8eee5388d6f8d2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7917215049724549787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -481,6 +508,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955821923866174897, guid: 12c9f3af637255e49b8a84da880bfbe5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1792336334876282235}
+    - target: {fileID: 3955821923866174897, guid: 12c9f3af637255e49b8a84da880bfbe5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeGroup
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955821923231757893, guid: 12c9f3af637255e49b8a84da880bfbe5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1792336334876282235}
+    - target: {fileID: 3955821923231757893, guid: 12c9f3af637255e49b8a84da880bfbe5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeGroup
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955821923840775675, guid: 12c9f3af637255e49b8a84da880bfbe5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1792336334876282235}
+    - target: {fileID: 3955821923840775675, guid: 12c9f3af637255e49b8a84da880bfbe5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeGroup
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12c9f3af637255e49b8a84da880bfbe5, type: 3}
