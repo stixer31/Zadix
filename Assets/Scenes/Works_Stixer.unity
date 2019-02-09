@@ -234,6 +234,71 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7596979266359324341, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596979266359324341, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596979266359324341, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 90.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596979266359324341, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -85.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573705382123519787, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573705382564932831, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573705382064951137, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792336334876282235, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: Groups.Array.data[0].Name
+      value: Nearby
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792336334876282235, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: Groups.Array.data[1].Name
+      value: Group
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792336334876282235, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: Groups.Array.data[2].Name
+      value: Clan
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573705380844814210, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_Text
+      value: CLAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573705382269230922, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_Text
+      value: NEARBY
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573705382832577117, guid: 2fef99bfa9134a04c9538a4be3d42ebc,
+        type: 3}
+      propertyPath: m_Text
+      value: GROUP
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fef99bfa9134a04c9538a4be3d42ebc, type: 3}
 --- !u!1 &196185843
