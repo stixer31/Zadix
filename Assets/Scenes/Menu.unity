@@ -514,7 +514,7 @@ MonoBehaviour:
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
   m_OfflineScene: Menu
-  m_OnlineScene: Works_Stixer
+  m_OnlineScene: LootScene
   m_SpawnPrefabs: []
   m_CustomConfig: 0
   m_MaxConnections: 4
