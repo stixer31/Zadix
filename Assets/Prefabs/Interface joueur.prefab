@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1053146962240370244}
   - component: {fileID: 1053146962240370245}
   - component: {fileID: 1053146962240370246}
+  - component: {fileID: 9022305405832840208}
   m_Layer: 5
   m_Name: Interface joueur
   m_TagString: Untagged
@@ -102,6 +103,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &9022305405832840208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053146962240370247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0067d9215bfd4004e9edd85e1ea47683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inventaire_Joueur: {fileID: 1284937318960330054}
 --- !u!1001 &1053146963256430687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -345,6 +359,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c49eebd07f109fd40b5cf8d528991b16, type: 3}
+--- !u!1 &1284937318960330054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 821373821, guid: c49eebd07f109fd40b5cf8d528991b16,
+    type: 3}
+  m_PrefabInstance: {fileID: 1284937319772642875}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1284937318960330053 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 821373822, guid: c49eebd07f109fd40b5cf8d528991b16,
