@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Works_Stixer.unity
     guid: d87f5e49e4a3e274cbfbfdf8ae93d688
+  - enabled: 1
+    path: Assets/Scenes/LootScene.unity
+    guid: b44d855ae7ecf6b46a69c6b3498a22b2
   m_configObjects: {}
