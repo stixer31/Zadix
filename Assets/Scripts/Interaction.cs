@@ -26,8 +26,8 @@ public class Interaction : MonoBehaviour
     {
         if (Col.gameObject.tag == "Equipements")
         {
-            TxtInfos.text = "en contact je eux agir sur l'objet";
-            print("dedans");
+            TxtInfos.text = "en contact avec " + Col.gameObject.name;
+            print(Col.gameObject.name);
         }
     }
 
