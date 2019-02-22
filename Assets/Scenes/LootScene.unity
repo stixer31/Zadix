@@ -179,7 +179,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &283962490
 GameObject:
@@ -245,7 +245,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1241196120
 GameObject:
@@ -324,7 +324,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1625034887
 PrefabInstance:
@@ -392,6 +392,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406478064573148068, guid: ad803cdf748816c43b7118ae319c7edc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 36.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406478064573148068, guid: ad803cdf748816c43b7118ae319c7edc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406478064573148068, guid: ad803cdf748816c43b7118ae319c7edc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 26.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad803cdf748816c43b7118ae319c7edc, type: 3}
@@ -461,6 +476,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406478064573148068, guid: ad803cdf748816c43b7118ae319c7edc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406478064573148068, guid: ad803cdf748816c43b7118ae319c7edc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 61.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad803cdf748816c43b7118ae319c7edc, type: 3}
@@ -549,7 +574,7 @@ PrefabInstance:
     - target: {fileID: 6199583853507449756, guid: f6b15c20ba0e5604b869b5f6c2f3cd08,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7265853523100939842, guid: f6b15c20ba0e5604b869b5f6c2f3cd08,
         type: 3}
