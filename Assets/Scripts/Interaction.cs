@@ -6,13 +6,17 @@ using UnityEngine.UI;
 public class Interaction : MonoBehaviour
 {
     private Text TxtInfos;
+    private GameObject objet;
+    Image image = null;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         TxtInfos = GameObject.Find("MessageTXT").GetComponent<Text>();
-        //TxtInfos = gameObject.transform.Find("MessageTXT").GetComponent<Text>();
         
+        //TxtInfos = gameObject.transform.Find("MessageTXT").GetComponent<Text>();
+
     }
 
     // Update is called once per frame
@@ -27,6 +31,10 @@ public class Interaction : MonoBehaviour
         if (Col.gameObject.tag == "Equipements")
         {
             TxtInfos.text = "en contact avec " + Col.gameObject.name;
+
+            image = GameObject.Find("Interface joueur/Equipement Panel/Body Slots Empty/Head").GetComponent<Image>();
+            image.color = new Color(255, 255, 225, 100);
+
             print(Col.gameObject.name);
         }
     }
