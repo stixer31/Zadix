@@ -7,6 +7,7 @@ public class Interaction : MonoBehaviour
 {
     private Text TxtInfos;
     private GameObject objet;
+    public Sprite myFirstImage;
     Image image = null;
     
 
@@ -31,9 +32,11 @@ public class Interaction : MonoBehaviour
         if (Col.gameObject.tag == "Equipements")
         {
             TxtInfos.text = "en contact avec " + Col.gameObject.name;
-
+            //loot
             image = GameObject.Find("Interface joueur/Equipement Panel/Body Slots Empty/Head").GetComponent<Image>();
             image.color = new Color(255, 255, 225, 100);
+            image.sprite = myFirstImage;
+            //
 
             print(Col.gameObject.name);
         }
