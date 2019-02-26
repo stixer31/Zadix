@@ -33,9 +33,11 @@ public class Interaction : MonoBehaviour
         {
             TxtInfos.text = "en contact avec " + Col.gameObject.name;
             //loot
-            image = GameObject.Find("Interface joueur/Equipement Panel/Body Slots Empty/Head").GetComponent<Image>();
+            image = GameObject.Find("Interface joueur/Equipement Panel/Body Slots Empty/Artefact Two").GetComponent<Image>();
             image.color = new Color(255, 255, 225, 100);
-            image.sprite = myFirstImage;
+            //Le nom de l'objet equipement doit etre le meme que celui de l'image qui sert d'icone ds l'inventaire
+            image.sprite = Resources.Load<Sprite>("Image/Equipement/" + Col.gameObject.name);
+
             //
 
             print(Col.gameObject.name);
