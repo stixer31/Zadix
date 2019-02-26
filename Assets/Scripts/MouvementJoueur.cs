@@ -14,6 +14,7 @@ public class MouvementJoueur : NetworkBehaviour
     private bool isMoving;
 
     public GameObject cubeCouleur;
+    public GameObject PersonnageAnimated;
     public Camera cameraLocal;
     public Color couleurDefault;
     public Color couleurChange;
@@ -60,8 +61,17 @@ public class MouvementJoueur : NetworkBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, walkSpeed * Time.deltaTime);
 
+        //fait marcher le personnage
+        PersonnageAnimated.GetComponent<Animator>().SetBool("ConditionMarcher", true);
+
         if (transform.position == targetPosition)
+        {
             isMoving = false;
+            //fait marcher le personnage
+            PersonnageAnimated.GetComponent<Animator>().SetBool("ConditionMarcher", false);
+            PersonnageAnimated.GetComponent<Animator>().SetBool("ConditionIdle", true);
+
+        }
     }
 
     private void SetTargetPosition()

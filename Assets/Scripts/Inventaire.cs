@@ -10,8 +10,13 @@ using System.Reflection;
 public class Inventaire : MonoBehaviour
 {
 
-
-
+    /*------------------------------------------------------------------------------- REQUIS -------------------------------------------------------------------------
+     *Ajouter un Equipements pour qu'il soit gérer automatiquement dans l'inventaire et sur le perosnnage:
+     * - Ajouter l'equipement dans la List<FoodItem> avec un nom précis (array)
+     * - Ajouter un loot avec le même nom sur la scene à partir du prefab
+     * - Ajouter le loot avec le même nom dans le "Personage" Prefab au chemin /Human Blend Low poly Animated/rig/root/MCH-.... et le dossier main, pied, tete, etc... à choisir 
+     * - Ajouter une image avec le même nom dans le dossier Image/Equipement/
+     *-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
     public GameObject Inventaire_Joueur;//(Equipement Panel)
     bool locked = false;
